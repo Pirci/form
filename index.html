@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Good Vibes Form</h1>
+      <div class="content">
+        <h3>Tell us something positive that happened to you today.</h3>
+
+        <form action="/action_page.php">
+          <label for="fname">Name</label>
+          <input
+            placeholder="Enter your name"
+            type="text"
+            id="fname"
+            name="fname"
+          />
+          <br />
+
+          <label for="email">Email</label>
+          <input
+            placeholder="Enter your email address"
+            type="text"
+            id="email"
+            name="email"
+          />
+          <br />
+
+          <label for="scale">On a scale of 1-10, how good was it?</label>
+          <input
+            placeholder="Enter a number between 1 and 10"
+            type="text"
+            id="scale"
+            name="scale"
+          />
+          <br />
+
+          <label for="location">Where did it happen?</label>
+          <select name="location" id="location">
+            <option value="volvo">At home</option>
+            <option value="saab">At work</option>
+            <option value="opel">Outside</option>
+            <option value="audi">Somewhere else..</option>
+          </select>
+          <br />
+
+          <div class="radio">
+            <p>At what time of day did it happen?</p>
+
+             
+            <div class="radioButtons">
+              <input type="radio" id="morning" for="Morning" value="Morning" />
+                <label for="Morning">Morning</label> <br />
+               
+              <input
+                type="radio"
+                id="afternoon"
+                for="Afternoon"
+                value="Afternoon"
+              />
+                <label for="Afternoon">Afternoon</label> <br />
+               
+              <input type="radio" id="evening" for="Evening" value="Evening" />
+               
+              <label for="Evening">Evening</label>
+            </div>
+          </div>
+
+          <div class="emotions">
+            <p>
+              What emotions did you experience? <br />
+              (Select all that apply)
+            </p>
+
+            <div class="check">
+              <input type="checkbox" name="emotion" value="Excited" /> Excited
+              <br />
+              <input type="checkbox" name="emotion" value="Humbled" /> Humbled
+              <br />
+              <input type="checkbox" name="emotion" value="Elated" /> Elated
+              <br />
+              <input type="checkbox" name="emotion" value="Loved" /> Loved
+              <br />
+              <input type="checkbox" name="emotion" value="Enthusiastic" />
+              Enthusiastic
+              <br />
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <label for="experience"
+            >Please describe your positive experience.</label
+          >
+          <br />
+          <textarea id="experience" name="experience" rows="4" cols="50">
+  Enter your experience here...
+  </textarea
+          >
+        </form>
+        <div class="btn">
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

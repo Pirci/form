@@ -1,0 +1,176 @@
+/*
+********** Defult Style **********
+*/
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+h1 {
+  font-size: 3.7rem;
+  text-align: center;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(204, 204, 204);
+}
+
+h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 50px;
+  font-weight: 500;
+}
+
+/*
+********** Input type="text" Style **********
+*/
+
+#fname {
+  margin-left: 20px;
+  min-width: 350px;
+  min-height: 30px;
+  margin-bottom: 30px;
+}
+
+label[for="fname"] {
+  margin-left: 550px;
+  font-size: 1.2rem;
+}
+
+#email {
+  margin-left: 20px;
+  min-width: 350px;
+  min-height: 30px;
+  margin-bottom: 30px;
+}
+
+label[for="email"] {
+  margin-left: 550px;
+  font-size: 1.2rem;
+}
+
+#scale {
+  margin-left: 20px;
+  min-width: 350px;
+  min-height: 30px;
+  margin-bottom: 30px;
+}
+
+label[for="scale"] {
+  margin-left: 310px;
+  font-size: 1.2rem;
+}
+
+/*
+********** Input select > option Style **********
+*/
+
+#location {
+  margin-left: 20px;
+  min-width: 150px;
+  min-height: 40px;
+}
+
+label[for="location"] {
+  margin-left: 430px;
+  font-size: 1.2rem;
+}
+
+/*
+********** Input type="radio" Style **********
+*/
+
+p {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-left: 327px;
+  max-width: 280px;
+}
+
+.radioButtons {
+  display: inline-block;
+  margin-top: -40px;
+}
+
+#morning {
+  margin-left: 615px;
+}
+
+label[for="Morning"] {
+  font-size: 1.1rem;
+}
+
+#afternoon {
+  margin-left: 607px;
+  margin-top: 10px;
+}
+
+label[for="Afternoon"] {
+  font-size: 1.1rem;
+}
+
+#evening {
+  margin-left: 607px;
+  margin-top: 10px;
+}
+
+label[for="Evening"] {
+  font-size: 1.1rem;
+}
+
+/*
+********** Input type="checkbox" Style **********
+*/
+
+.emotions p {
+  display: flex;
+  margin-left: 315px;
+}
+
+.check {
+  display: inline-block;
+  margin-left: 611px;
+  margin-top: -80px;
+  padding-top: 15px;
+}
+
+/*
+********** Textarea Style **********
+*/
+
+label[for="experience"] {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-left: 270px;
+}
+
+textarea {
+  margin-left: 610px;
+  margin-top: -20px;
+  max-width: 350px;
+  min-height: 80px;
+}
+
+/*
+********** Button Style **********
+*/
+
+.btn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#submit {
+  background-color: rgb(107, 162, 206);
+  color: white;
+  border-radius: 6px;
+  border-color: transparent;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 12px 17px;
+  margin: 30px;
+}
