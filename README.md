@@ -1,8 +1,6 @@
-### Seytech Fullstack Software Developer Bootcamp
+### Form Page
 
-> HTML & CSS #7th Homework Project (Form).
-
-From [Fullstack Software Developer Bootcamp](https://www.seytech.co/)
+> HTML & CSS Form Project.
 
 ## Live Demo
 
